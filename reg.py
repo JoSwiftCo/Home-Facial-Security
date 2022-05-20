@@ -25,7 +25,7 @@ recognizer.read('/home/pi/Desktop/Face_recognition/trainer/trainer.yml')
 #Load a cascade file for detecting faces
 face_cascade = cv2.CascadeClassifier('/home/pi/Desktop/Face_recognition/haarcascade_frontalface_default.xml')
 font = cv2.FONT_HERSHEY_SIMPLEX
-#iniciate id counter
+#initiate id counter
 id = 0
 
 emotions = ['Jordan','Riley','Jhanna','Charlie','Gracie'] 
